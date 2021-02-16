@@ -1,0 +1,29 @@
+{
+  "name": "ar-server",
+  "version": "1.0.0",
+  "description": "backend for always ready",
+  "main": "index.js",
+  "repository": "https://github.com/mythreel/ARServer.git",
+  "author": "mythreel <eric.glazebrook@yandex.com>",
+  "license": "Apache2.0",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/plugin-proposal-decorators": "^7.12.13",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/register": "^7.12.13",
+    "core-js": "^3.8.3",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "joi": "^17.4.0",
+    "js-yaml": "^4.0.0",
+    "mysql2": "^2.2.5",
+    "typeorm": "^0.2.31",
+    "underscore": "^1.12.0"
+  }
+}

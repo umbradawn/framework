@@ -1,0 +1,6 @@
+routes: 
+  -
+    path: /
+    fileName: home
+    method: [GET,POST,PUT,DELETE]
+    handler: showHome
